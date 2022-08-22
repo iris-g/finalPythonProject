@@ -14,6 +14,7 @@ function App() {
 
     // Using useEffect for single rendering
     useEffect(() => {
+
         // Using fetch to fetch the api from
         // flask server it will be redirected to proxy
         fetch("/data").then((res) =>
